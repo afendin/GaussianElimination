@@ -38,6 +38,7 @@ int main()
         }
         //
 
+	// Elimination
         int lRow = column; // pivot row
         for (int row = lRow + 1; row < n; ++row) {
             if (mat[row][column] == 0) // if leading value is zero, skip row
